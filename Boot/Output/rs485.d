@@ -1,0 +1,15 @@
+..\..\output\rs485.o: ..\..\HARDWARE\RS485\rs485.c
+..\..\output\rs485.o: ..\..\HARDWARE\RS485\rs485.h
+..\..\output\rs485.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\output\rs485.o: ..\..\Libraries\CMSIS\core_cm3.h
+..\..\output\rs485.o: D:\Keil\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\rs485.o: ..\..\Libraries\CMSIS\system_stm32f10x.h
+..\..\output\rs485.o: ..\..\User\stm32f10x_conf.h
+..\..\output\rs485.o: ..\..\Libraries\FWlib\inc\stm32f10x_flash.h
+..\..\output\rs485.o: ..\..\Libraries\CMSIS\stm32f10x.h
+..\..\output\rs485.o: ..\..\Libraries\FWlib\inc\stm32f10x_gpio.h
+..\..\output\rs485.o: ..\..\Libraries\FWlib\inc\stm32f10x_rcc.h
+..\..\output\rs485.o: ..\..\Libraries\FWlib\inc\stm32f10x_tim.h
+..\..\output\rs485.o: ..\..\Libraries\FWlib\inc\stm32f10x_usart.h
+..\..\output\rs485.o: ..\..\Libraries\FWlib\inc\misc.h
+..\..\output\rs485.o: ..\..\User\bsp_SysTick.h
