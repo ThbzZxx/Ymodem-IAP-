@@ -1,0 +1,83 @@
+---
+# 基于 LLVM 风格，修改为 Allman 大括号风格
+BasedOnStyle: LLVM
+BreakBeforeBraces: Allman
+
+# 缩进设置
+IndentWidth: 4
+UseTab: Always
+TabWidth: 4
+
+# 列宽限制
+ColumnLimit: 100
+
+# 指针和引用对齐
+PointerAlignment: Right
+ReferenceAlignment: Right
+
+# 函数参数对齐
+AlignAfterOpenBracket: Align
+AllowAllParametersOfDeclarationOnNextLine: true
+
+# 连续赋值对齐
+AlignConsecutiveAssignments: false
+AlignConsecutiveDeclarations: false
+
+# 注释对齐
+AlignTrailingComments: true
+
+# 允许短的函数/if/循环写在一行
+AllowShortFunctionsOnASingleLine: None
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortLoopsOnASingleLine: false
+AllowShortBlocksOnASingleLine: Never
+
+# 函数声明/定义格式
+AlwaysBreakAfterReturnType: None
+AlwaysBreakBeforeMultilineStrings: false
+
+BreakBeforeBinaryOperators: None
+BreakBeforeTernaryOperators: true
+BreakConstructorInitializers: BeforeColon
+
+# 大括号换行详细配置
+BraceWrapping:
+  AfterCaseLabel: true
+  AfterClass: true
+  AfterControlStatement: Always
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterStruct: true
+  AfterUnion: true
+  AfterExternBlock: true
+  BeforeCatch: true
+  BeforeElse: true
+  BeforeLambdaBody: true
+  BeforeWhile: false
+  IndentBraces: false
+  SplitEmptyFunction: true
+  SplitEmptyRecord: true
+  SplitEmptyNamespace: true
+
+# 空格设置
+SpaceAfterCStyleCast: true
+SpaceAfterLogicalNot: false
+SpaceBeforeAssignmentOperators: true
+SpaceBeforeParens: ControlStatements
+SpaceInEmptyParentheses: false
+SpacesInCStyleCastParentheses: false
+SpacesInParentheses: false
+SpacesInSquareBrackets: false
+
+# 宏定义缩进
+IndentPPDirectives: None
+
+# 保留空行
+MaxEmptyLinesToKeep: 2
+
+# 排序 include
+SortIncludes: false
+
+# 保留块注释格式
+ReflowComments: false
