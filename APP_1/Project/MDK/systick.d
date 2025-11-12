@@ -1,0 +1,14 @@
+.\systick.o: ..\..\User\SysTick.c
+.\systick.o: ..\..\User\sysTick.h
+.\systick.o: ..\..\Libraries\CMSIS\stm32f10x.h
+.\systick.o: ..\..\Libraries\CMSIS\core_cm3.h
+.\systick.o: D:\MDK_V5.3.1\ARM\ARMCC\Bin\..\include\stdint.h
+.\systick.o: ..\..\Libraries\CMSIS\system_stm32f10x.h
+.\systick.o: ..\..\User\stm32f10x_conf.h
+.\systick.o: ..\..\Libraries\FWlib\inc\stm32f10x_flash.h
+.\systick.o: ..\..\Libraries\CMSIS\stm32f10x.h
+.\systick.o: ..\..\Libraries\FWlib\inc\stm32f10x_gpio.h
+.\systick.o: ..\..\Libraries\FWlib\inc\stm32f10x_rcc.h
+.\systick.o: ..\..\Libraries\FWlib\inc\stm32f10x_tim.h
+.\systick.o: ..\..\Libraries\FWlib\inc\stm32f10x_usart.h
+.\systick.o: ..\..\Libraries\FWlib\inc\misc.h

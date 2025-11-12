@@ -1,0 +1,14 @@
+.\bsp_led.o: ..\..\HARDWARE\bsp_led.c
+.\bsp_led.o: ..\..\HARDWARE\bsp_led.h
+.\bsp_led.o: ..\..\Libraries\CMSIS\stm32f10x.h
+.\bsp_led.o: ..\..\Libraries\CMSIS\core_cm3.h
+.\bsp_led.o: D:\MDK_V5.3.1\ARM\ARMCC\Bin\..\include\stdint.h
+.\bsp_led.o: ..\..\Libraries\CMSIS\system_stm32f10x.h
+.\bsp_led.o: ..\..\User\stm32f10x_conf.h
+.\bsp_led.o: ..\..\Libraries\FWlib\inc\stm32f10x_flash.h
+.\bsp_led.o: ..\..\Libraries\CMSIS\stm32f10x.h
+.\bsp_led.o: ..\..\Libraries\FWlib\inc\stm32f10x_gpio.h
+.\bsp_led.o: ..\..\Libraries\FWlib\inc\stm32f10x_rcc.h
+.\bsp_led.o: ..\..\Libraries\FWlib\inc\stm32f10x_tim.h
+.\bsp_led.o: ..\..\Libraries\FWlib\inc\stm32f10x_usart.h
+.\bsp_led.o: ..\..\Libraries\FWlib\inc\misc.h
